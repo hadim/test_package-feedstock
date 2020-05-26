@@ -14,7 +14,7 @@ channels:
     - main
 
 azure:
-  force: false
+  force: true
   project_name: "feedstock-builds"
   timeout_minutes: 360
   upload_packages: true
