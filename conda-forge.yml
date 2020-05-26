@@ -17,7 +17,7 @@ azure:
   force: false
   project_name: "feedstock-builds"
   timeout_minutes: 360
-  upload_packages: false
+  upload_packages: true
 
 provider:
   linux: azure
