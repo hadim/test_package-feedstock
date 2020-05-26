@@ -1,0 +1,8 @@
+channel_sources:
+    - invivoai
+    - conda-forge
+    - pytorch
+    - default
+channel_targets:
+  - invivoai main
+  
