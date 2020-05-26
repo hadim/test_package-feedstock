@@ -1,1 +1,51 @@
-{}
+github:
+  branch_name: master
+  repo_name: ''
+  user_or_org: invivoai-forge
+  
+channels:
+  sources:
+    - invivoai
+    - conda-forge
+    - pytorch
+    - default
+  targets:
+  - - invivoai
+    - main
+
+azure:
+  force: false
+  project_name: "feedstock-builds"
+  timeout_minutes: 360
+  upload_packages: false
+
+provider:
+  linux: azure
+  osx: azure
+  win: azure
+  linux_aarch64: null
+  linux_ppc64le: null
+  linux_armv7l: null
+
+docker:
+  command: bash
+  executable: docker
+  fallback_image: condaforge/linux-anvil-comp7
+
+linux:
+  enabled: false
+linux_aarch64:
+  enabled: false
+linux_armv7l:
+  enabled: false
+linux_ppc64le:
+  enabled: false
+osx:
+  enabled: false
+win:
+  enabled: false
+
+max_py_ver: '38'
+min_py_ver: '36'
+
+recipe_dir: recipe
