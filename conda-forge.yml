@@ -34,15 +34,15 @@ docker:
 
 linux:
   enabled: true
+osx:
+  enabled: true
+win:
+  enabled: true
 linux_aarch64:
   enabled: false
 linux_armv7l:
   enabled: false
 linux_ppc64le:
-  enabled: false
-osx:
-  enabled: false
-win:
   enabled: false
 
 max_py_ver: '38'
