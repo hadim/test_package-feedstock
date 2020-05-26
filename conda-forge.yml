@@ -33,7 +33,7 @@ docker:
   fallback_image: condaforge/linux-anvil-comp7
 
 linux:
-  enabled: false
+  enabled: true
 linux_aarch64:
   enabled: false
 linux_armv7l:
