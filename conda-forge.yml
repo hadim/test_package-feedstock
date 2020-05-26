@@ -45,7 +45,7 @@ linux_armv7l:
 linux_ppc64le:
   enabled: false
 
-min_py_ver: '38'
-max_py_ver: '36'
+min_py_ver: '36'
+max_py_ver: '38'
 
 recipe_dir: recipe
